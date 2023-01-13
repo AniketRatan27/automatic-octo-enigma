@@ -1,0 +1,262 @@
+body{
+    margin: 0px;
+}
+.start{
+    background-image: url("../Airplane/plane.png");
+    background-size: cover;
+    width:100%;
+    height:95vh;
+    background-position: center;
+}
+.plane{
+    font-size: 55px;
+    text-decoration: none;
+    color:white;
+    margin: 0rem 0 0 9rem;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 12px rgba(249, 238, 238, 0.9);
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin:1.8rem 9rem 0 0;
+}
+nav ul li{
+margin:1rem;
+border-radius:50px;
+}
+
+nav li:nth-child(1){
+    background-color: rgb(121, 92, 92);
+}
+nav ul li :hover{
+    background-color: rgb(120, 89, 89);
+    border: 1px solid white;
+    border-radius: 50px;
+}
+li a{
+    text-decoration: none;
+    color:white;
+    padding:1rem;
+    font-size: 25px;
+}
+.toggle{
+    transform:translate(64% , 15px);
+    font-size: 58px;
+    position: relative;
+}
+
+.boxone{
+    margin:2.5rem 2rem 1rem 2rem;
+    width:280px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+ .polaride img{
+    text-align: center;
+    width:280px;
+    height:30vh;
+}
+.content p{
+    
+    font-size: 30px;
+    margin-left:3.7rem;
+}
+.content p:nth-child(1){
+    font-size:20px;
+    margin-left: 73px;
+} 
+.content p:nth-child(2){
+    background-color: orange;
+    border:1px solid black;
+    border-radius: 50px;
+    width:160px;
+    text-align: center;
+}
+
+.boxtwo{
+    margin:2.5rem 2rem 1rem 0px;
+    width:280px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.polaride2 img{
+    text-align: center;
+    width:280px;
+    height:30vh;
+}
+.content2 p{
+    
+    font-size: 30px;
+    margin-left:3.7rem;
+}
+.content2 p:nth-child(1){
+    font-size:20px;
+    margin-left: 74.4px;
+} 
+.content2 p:nth-child(2){
+    background-color: orange;
+    border:1px solid black;
+    border-radius: 50px;
+    width:160px;
+    text-align: center;
+}
+.boxthree{
+    width:280px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:2.5rem 2rem 1rem 0px;
+}
+.polaride3 img{
+    text-align: center;
+    width:280px;
+    height:30vh;
+}
+.content3 p{
+    font-size: 30px;
+    margin-left:3.9rem;
+}
+.content3 p:nth-child(1){
+    font-size:20px;
+    margin-left: 4.6em;
+} 
+.content3 p:nth-child(2){
+    background-color: orange;
+    border:1px solid black;
+    border-radius: 50px;
+    width:160px;
+    text-align: center;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(250, 255, 176);
+    margin:0px 0px 0px 0px;
+}
+.store{ 
+    background-image: url("../Airplane/flight.png");
+    width:100%;
+    height:80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.fleximg{
+    display: flex;
+    transform:translate(10% , -298%) ;
+    
+}
+
+.text{
+ font-size: 40px;
+ transform:translate(10% , 174px) ; 
+}
+
+.imgtwo img{
+    width:200px;
+    height:80px;
+     
+}
+.imgthree img{
+width:380px;
+height:90px;
+}
+
+footer{
+    margin:-5.9rem 0px 0px 0px;
+    background-color: rgba(73, 73, 215, 0.379);
+}
+.icons{
+    display:flex;
+    justify-content: center;
+}
+
+.icons i{
+  font-size:34px;
+  margin-top: 1rem;
+  padding:1rem;
+}
+
+.copy p{
+   margin-left: 32%;
+   font-size: 34px;
+}
+
+.state{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color:white;
+    text-transform: uppercase;
+}
+.para{
+    font-size:30px;
+    text-transform: uppercase;
+    transform: translate(13%,0%);
+} 
+
+.book{
+   background-image: url(../Airplane/flith.jpg);
+   width:100%;
+   height:95vh;
+   background-size: cover;
+}
+.title{
+    font-size: 70px;
+    text-align: center;
+}
+
+.bookbox{
+    border-radius: 5px;
+    transform: translate(25% , 20px);
+    width:480px;
+    height:350px;
+    box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.2), 0 7px 24px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(0, 0, 0, 0.637);
+    color:rgb(255,255,255);
+}
+.one{
+    font-size: 22px;
+   text-align: center;
+}
+.flexflight{
+    display:flex;
+}
+.boking{
+    margin:0px 0px 0px 16px;
+    color: rgb(255, 255, 255);
+}
+.bokswing{
+    margin:0px 0px 0px 122px; 
+}
+p input{
+    border-top:  0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.flexdeparture{
+    display: flex;
+}
+.flexdep{
+    color:white;
+    margin:0px 15px;
+}
+.flexreturn{
+    color:white;
+    margin:0px 0px 0px 108px;
+}
+.input1{
+    margin:18px 0px 0px 0px;
+    background-color: rgba(59, 57, 57, 0.416);
+}
+.input2{
+    margin:18px 0px 0px 0px;
+    background-color: rgba(69, 67, 67, 0.511);
+}
+input{
+    color:white;
+    background-color: rgba(11, 11, 11, 0.441);
+}
